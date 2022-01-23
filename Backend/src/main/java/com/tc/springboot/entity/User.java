@@ -22,8 +22,7 @@ public class User {
         this.tc_email = tc_email;
     }
 
-    public void update(String tc_id, String tc_password, String tc_email) {
-        this.tc_id = tc_id;
+    public void update(String tc_password, String tc_email) {
         this.tc_password = tc_password;
         this.tc_email = tc_email;
     }
